@@ -1,4 +1,74 @@
 # technical-documentation
+<style>
+  body{
+  background-color:white;
+  margin:0;
+  padding:0;
+}
+#navbar{
+  margin:0;
+  padding:0;
+  position:fixed;
+  width:30%;
+  height:100%;
+  overflow:auto;
+}
+.nav-link{
+  display:block;
+  font-size:20px;
+  color:black;
+}
+.nav-link:hover{
+  background-color:lightgreen;
+  height:50px;
+  padding:5px;
+}
+#ul {
+  list-style-type: none;
+}
+a:link{
+  text-decoration:none;
+}
+#main-doc{
+  margin-left:450px;
+  height:auto;
+}
+#code{
+  background-color:lightgray;
+  padding:5px;
+  width:50%;
+}
+.header{
+  background-color:lightgreen;
+  height:30px;
+  padding:10px;
+}
+#img{
+  width:100%;
+}
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  #navbar a {float: left;}
+  #main-doc {margin-left: 0;}
+  #img{
+  width:50%;
+}
+}
+
+@media screen and (max-width: 400px) {
+  #navbar a {
+    text-align: center;
+    float: none;
+  }
+  #img{
+  width:50%;
+}
+}
+  </style>
 <nav id="navbar">
   <ul id="ul">
 <h1>CSS Documentation</h1><hr>
